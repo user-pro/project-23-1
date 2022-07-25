@@ -182,19 +182,3 @@ if (animItems.length > 0) {
 }
 ;
 
-let header = document.querySelector('.header');
-if(window.pageYOffset > 1){
-   header.classList.add("active-header");
-}
-if(window.pageYOffset < 1){
-   header.classList.remove("active-header");
-}
-addEventListener('scroll', ()=>{
-   if(window.pageYOffset > 1){
-      header.classList.add("active-header");
-   }
-   if(window.pageYOffset < 1){
-      header.classList.remove("active-header");
-   }
-
-});
