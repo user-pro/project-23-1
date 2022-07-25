@@ -9600,15 +9600,11 @@ footer {
   left: 0;
   z-index: 10;
   width: 100%;
-  -webkit-transition: background-color .3s;
-  -o-transition: background-color .3s;
-  transition: background-color .3s;
+
 }
 
-.header.active-header {
-  -webkit-transition: background-color .3s;
-  -o-transition: background-color .3s;
-  transition: background-color .3s;
+.header {
+
   background-color: rgba(111, 163, 112, 0.9);
 }
 
